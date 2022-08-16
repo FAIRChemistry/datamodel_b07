@@ -92,8 +92,9 @@
         "description": "All subsequent processing steps",
         "multiple": "True"
       },
-      "yield": {
-        "description": "Yield in percent"
+      "yield_": {
+        "description": "Yield in percent",
+        "alias": "yield"
       },
       "notice": {
         "description": "..."

@@ -50,7 +50,7 @@ classDiagram
         +PhysicalParameter[0..*] physical_parameters*
         +Apparatus[0..*] apparatus
         +Processing[0..*] processing
-        +float yield*
+        +float yield_*
         +string notice
         +Reactant reactant
     }
