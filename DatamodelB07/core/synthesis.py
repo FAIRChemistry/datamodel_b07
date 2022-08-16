@@ -32,6 +32,7 @@ class Synthesis(sdRDM.DataModel):
     yield_: float = Field(
         ...,
         description="Yield in percent",
+        alias="yield",
     )
 
     notice: Optional[str] = Field(
@@ -68,7 +69,7 @@ class Synthesis(sdRDM.DataModel):
         default="git://github.com/FAIRChemistry/datamodel_b07.git"
     )
     __commit__: Optional[str] = PrivateAttr(
-        default="5d48c0ab8715b2bafdb4436122baebae81b78633"
+        default="6cbc2fdcccadac154f6bbd995d386b893c4f7d2e"
     )
 
     def add_to_reactants(
