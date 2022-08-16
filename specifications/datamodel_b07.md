@@ -100,7 +100,7 @@ Container for personal identifiers related to an author
   - Type: Processing
   - Description: All subsequent processing steps
   - Multiple: True
-- __yield_*__
+- __yield*__
   - Type: float
   - Description: Yield in percent
 - __notice__
